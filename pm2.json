@@ -1,0 +1,17 @@
+{
+  "apps" : [{
+    "name"        : "MarketplaceChatbot",
+    "script"      : "node_modules/.bin/gulp",
+    "args"        : "prod",
+    "cwd"         : "/home/ubuntu/marketplace-bot",
+    "watch"       : false,
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": "8081"
+    },
+    "env_production" : {
+       "NODE_ENV": "production",
+       "PORT": "8081"
+    }
+  }]
+}

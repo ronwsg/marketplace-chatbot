@@ -1,0 +1,16 @@
+{
+  "name": "generator-sio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ori Calvo",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "change-case": "^3.0.0",
+    "yeoman-generator": "^0.24.1"
+  },
+  "files": [
+    "page"
+  ]
+}

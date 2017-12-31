@@ -1,0 +1,2 @@
+proxy="http://genproxy:8080"
+rejectUnauthorized=false

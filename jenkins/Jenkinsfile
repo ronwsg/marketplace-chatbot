@@ -1,0 +1,10 @@
+node {
+    stage ('get sources') {
+		git credentialsId: '2863652f-7d83-4571-bbd0-162a46fa5557', url: 'http://imisalm1srv:8080/tfs/ServicesRnd/_git/sio-digital-seed'
+    }
+    def deploy_server = "localhost"
+    def nexus_server_prefix = "http://ilvpbg1573:8081/repository/fe_dist"
+
+    def build = load("jenkins/build.groovy")
+    build.build(nexus_server_prefix,deploy_server)
+}

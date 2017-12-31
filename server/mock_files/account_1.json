@@ -1,0 +1,72 @@
+{
+    "id": "123456",
+    "primaryEmail": "liz@example.com",
+    "name": {
+        "givenName": "Liz",
+        "familyName": "Smith"
+    },
+    "suspended": false,
+    "password": "updated password",
+    "hashFunction": "SHA-1",
+    "changePasswordAtNextLogin": true,
+    "ipWhitelisted": false,
+    "ims": [
+        {
+            "type": "work",
+            "protocol": "gtalk",
+            "im": "newim@talk.example.com",
+            "primary": true
+        },
+        {
+            "type": "home",
+            "protocol": "aim",
+            "im": "newaim@aim.example.com",
+            "primary": false
+        }
+    ],
+    "emails": [
+        {
+            "address": "liz@example.com",
+            "type": "home",
+            "customType": "",
+            "primary": true
+        }
+    ],
+    "addresses": [
+        {
+            "type": "work",
+            "customType": "",
+            "streetAddress": "1600 Amphitheatre Parkway",
+            "locality": "Mountain View",
+            "region": "CA",
+            "postalCode": "94043"
+        }
+    ],
+    "externalIds": [
+        {
+            "value": "12345",
+            "type": "custom",
+            "customType": "employee"
+        }
+    ],
+    "organizations": [
+        {
+            "name": "Amdocs Inc.",
+            "title": "SWE",
+            "primary": true,
+            "type": "work",
+            "description": "Software engineer"
+        }
+    ],
+    "phones": [
+        {
+            "value": "+1 206 555 nnnn",
+            "type": "work"
+        },
+        {
+            "value": "+1 602 555 nnnn",
+            "type": "home"
+        }
+    ],
+    "orgUnitPath": "/corp/engineering"
+}

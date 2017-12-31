@@ -1,0 +1,19 @@
+.invalidTooltip {
+    position: absolute;
+    color: red;
+    //background-color: #FFF;
+    //box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border: 0px;
+    border-radius: 3px;
+    margin-left: -5px;
+    margin-top: 0px;
+    padding-left: 20px;
+    z-index: 1070;
+}
+
+.inline_info_icon {
+  background-image: url(../../imgs/ic_info_outline_red_48px.svg); 
+  background-repeat: no-repeat;
+  background-position: 2px 2px;
+  background-size: 15px;
+}

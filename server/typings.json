@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "registry:npm/express#4.14.0+20160925001530",
+    "webpack": "registry:npm/webpack#1.12.9+20160418172948"
+  },
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20160925070332"
+  }
+}
